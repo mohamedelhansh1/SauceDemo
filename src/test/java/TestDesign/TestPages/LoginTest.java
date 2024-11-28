@@ -9,6 +9,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class LoginTest extends BaseTest {
+    //login
     WebDriver driver;
     @Test(testName = "Login with valid credentials.")
     public void loginTest(){

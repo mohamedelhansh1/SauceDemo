@@ -1,4 +1,4 @@
-README: SauceDemo Test Automation Project
+SauceDemo Test Automation Project
 Project Overview
 This project automates the end-to-end testing of the SauceDemo web application. It covers key functionalities such as login validation, product listing verification, and shopping cart interactions. The project utilizes Selenium WebDriver with TestNG for execution and generates comprehensive reports using ExtentReports.
 

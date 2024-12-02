@@ -4,29 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30316202-7da6-46c3-9ce6-6b22bca00f45" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SauceDemo/PageActions/CheckoutPageActions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SauceDemo/PageActions/HomePageActions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SauceDemo/PageActions/LoginActions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SauceDemo/Pges/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SauceDemo/Pges/CheckoutPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SauceDemo/Pges/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SauceDemo/Pges/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SauceDemo/Pges/ShoppingCartPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SauceDemo/utilities/PropertyManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/configuration.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestDesign/Listeners/Listeners.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestDesign/Listeners/RetryListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestDesign/Listeners/ScreenshotListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestDesign/TestComponents/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestDesign/TestPages/LoginTest.java" afterDir="false" />
+    <list default="true" id="30316202-7da6-46c3-9ce6-6b22bca00f45" name="Changes" comment="Login edit">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/E2ESecnarios.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SauceDemo/Pages/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SauceDemo/Pages/CheckoutPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SauceDemo/Pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SauceDemo/Pages/ProductPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SauceDemo/Pages/ShoppingCartPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestDesign/TestPages/LogoutTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestDesign/TestPages/ProductPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestDesign/TestPages/ShoppingCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestDesign/TestPages/SubmitOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SauceDemo/PageActions/CheckoutPageActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SauceDemo/PageActions/CheckoutPageActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SauceDemo/PageActions/HomePageActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SauceDemo/PageActions/ProductPageActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SauceDemo/PageActions/LoginActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SauceDemo/PageActions/LoginActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SauceDemo/Pges/BasePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SauceDemo/Pges/CheckoutPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SauceDemo/Pges/HomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SauceDemo/Pges/LoginPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SauceDemo/Pges/ShoppingCartPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SauceDemo/utilities/PropertyManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SauceDemo/utilities/PropertyManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestDesign/Listeners/Listeners.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestDesign/Listeners/RetryListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestDesign/Listeners/ScreenshotListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestDesign/TestComponents/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestDesign/TestComponents/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestDesign/TestPages/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestDesign/TestPages/LoginTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,28 +49,43 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2pUx0iQd0jY32kBeN3dNpoqbIRo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/My_Projects/Automation/SauceDemo",
-    "onboarding.tips.debug.path": "D:/My_Projects/Automation/SauceDemo/src/main/java/SauceDemo/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/My_Projects/Automation/SauceDemo&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/My_Projects/Automation/SauceDemo/src/main/java/SauceDemo/Main.java&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="TestNG.LoginTest">
+}</component>
+  <component name="RunManager" selected="TestNG.D:/My_Projects/Automation/SauceDemo/E2ESecnarios.xml">
+    <configuration name="D:/My_Projects/Automation/SauceDemo/E2ESecnarios.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SauceDemo" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/E2ESecnarios.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SauceDemo" />
       <extension name="coverage">
@@ -80,7 +103,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductPageTest.getAllProductsList" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SauceDemo" />
       <extension name="coverage">
         <pattern>
@@ -89,8 +112,44 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="TestDesign.TestPages" />
-      <option name="MAIN_CLASS_NAME" value="TestDesign.TestPages.LoginTest" />
-      <option name="METHOD_NAME" value="loginTest" />
+      <option name="MAIN_CLASS_NAME" value="TestDesign.TestPages.ProductPageTest" />
+      <option name="METHOD_NAME" value="getAllProductsList" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingCart.addProductToCart" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SauceDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestDesign.TestPages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestDesign.TestPages" />
+      <option name="MAIN_CLASS_NAME" value="TestDesign.TestPages.ShoppingCart" />
+      <option name="METHOD_NAME" value="addProductToCart" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubmitOrder.submitOrder" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SauceDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestDesign.TestPages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestDesign.TestPages" />
+      <option name="MAIN_CLASS_NAME" value="TestDesign.TestPages.SubmitOrder" />
+      <option name="METHOD_NAME" value="submitOrder" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -100,8 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.D:/My_Projects/Automation/SauceDemo/E2ESecnarios.xml" />
         <item itemvalue="TestNG.LoginTest" />
-        <item itemvalue="TestNG.LoginTest.loginTest" />
+        <item itemvalue="TestNG.SubmitOrder.submitOrder" />
+        <item itemvalue="TestNG.ShoppingCart.addProductToCart" />
+        <item itemvalue="TestNG.ProductPageTest.getAllProductsList" />
       </list>
     </recent_temporary>
   </component>
@@ -114,6 +176,28 @@
       <option name="presentableId" value="Default" />
       <updated>1732828362247</updated>
     </task>
+    <task id="LOCAL-00001" summary="Login">
+      <option name="closed" value="true" />
+      <created>1732835043249</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732835043249</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Login edit">
+      <option name="closed" value="true" />
+      <created>1732835368445</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1732835368445</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Login" />
+    <MESSAGE value="Login edit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Login edit" />
   </component>
 </project>

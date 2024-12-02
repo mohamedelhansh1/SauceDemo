@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SauceDemo Test Suite" verbose="1" parallel="false">
+
+    <!-- Define the test group -->
+    <test name="E2E scenario">
+        <classes>
+            <!-- Specify the fully qualified names of all test classes -->
+<!--            <class name="TestDesign.TestPages.LoginTest" />-->
+<!--            <class name="TestDesign.TestPages.LogoutTest" />-->
+<!--            <class name="TestDesign.TestPages.ProductPageTest" />-->
+<!--            <class name="TestDesign.TestPages.ShoppingCart" />-->
+            <class name="TestDesign.TestPages.SubmitOrder" />
+        </classes>
+    </test>
+
+</suite>
